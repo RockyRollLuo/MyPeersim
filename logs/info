@@ -1,10 +1,84 @@
-2019-01-08 23:05:29 下午 [Thread: main][ Class:peersim.Simulator >> Method: peersim.Simulator.main(Simulator.java:160) ]
+2019-01-08 23:35:35 下午 [Thread: main][ Class:peersim.Simulator >> Method: peersim.Simulator.main(Simulator.java:160) ]
 WARN:Simulator: loading configuration
-2019-01-08 23:05:29 下午 [Thread: main][ Class:peersim.config.ConfigProperties >> Method: peersim.config.ConfigProperties.<init>(ConfigProperties.java:94) ]
+2019-01-08 23:35:35 下午 [Thread: main][ Class:peersim.config.ConfigProperties >> Method: peersim.config.ConfigProperties.<init>(ConfigProperties.java:94) ]
 WARN:ConfigProperties: File example/config-example1.txt loaded.
-2019-01-08 23:05:29 下午 [Thread: main][ Class:peersim.Simulator >> Method: peersim.Simulator.main(Simulator.java:186) ]
+2019-01-08 23:35:35 下午 [Thread: main][ Class:peersim.Simulator >> Method: peersim.Simulator.main(Simulator.java:186) ]
 WARN:Simulator: starting experiment 0
-2019-01-08 23:05:29 下午 [Thread: main][ Class:peersim.Simulator >> Method: peersim.Simulator.main(Simulator.java:187) ]
+2019-01-08 23:35:35 下午 [Thread: main][ Class:peersim.Simulator >> Method: peersim.Simulator.main(Simulator.java:187) ]
 WARN: invoking peersim.cdsim.CDSimulator
-2019-01-08 23:05:29 下午 [Thread: main][ Class:peersim.Simulator >> Method: peersim.Simulator.main(Simulator.java:188) ]
+2019-01-08 23:35:35 下午 [Thread: main][ Class:peersim.Simulator >> Method: peersim.Simulator.main(Simulator.java:188) ]
 WARN:Random seed: 1234567890
+2019-01-08 23:35:35 下午 [Thread: main][ Class:peersim.cdsim.CDSimulator >> Method: peersim.cdsim.CDSimulator.nextExperiment(CDSimulator.java:190) ]
+WARN:CDSimulator: resetting
+2019-01-08 23:35:35 下午 [Thread: main][ Class:peersim.core.Network >> Method: peersim.core.Network.reset(Network.java:133) ]
+WARN:Network: no node defined, using GeneralNode
+2019-01-08 23:35:35 下午 [Thread: main][ Class:peersim.cdsim.CDSimulator >> Method: peersim.cdsim.CDSimulator.nextExperiment(CDSimulator.java:194) ]
+WARN:CDSimulator: running initializers
+2019-01-08 23:35:35 下午 [Thread: main][ Class:peersim.cdsim.CDSimulator >> Method: peersim.cdsim.CDSimulator.runInitializers(CDSimulator.java:130) ]
+WARN:- Running initializer init.rnd: class peersim.dynamics.WireKOut
+2019-01-08 23:35:35 下午 [Thread: main][ Class:peersim.cdsim.CDSimulator >> Method: peersim.cdsim.CDSimulator.runInitializers(CDSimulator.java:130) ]
+WARN:- Running initializer init.lin: class peersim.vector.LinearDistribution
+2019-01-08 23:35:35 下午 [Thread: main][ Class:peersim.cdsim.CDSimulator >> Method: peersim.cdsim.CDSimulator.loadControls(CDSimulator.java:158) ]
+WARN:CDSimulator: loaded controls [control.avgo, control.shf]
+2019-01-08 23:35:35 下午 [Thread: main][ Class:peersim.cdsim.CDSimulator >> Method: peersim.cdsim.CDSimulator.nextExperiment(CDSimulator.java:200) ]
+WARN:CDSimulator: starting simulation
+2019-01-08 23:35:35 下午 [Thread: main][ Class:peersim.cdsim.CDSimulator >> Method: peersim.cdsim.CDSimulator.nextExperiment(CDSimulator.java:213) ]
+WARN:CDSimulator: cycle 0 done
+2019-01-08 23:35:35 下午 [Thread: main][ Class:peersim.cdsim.CDSimulator >> Method: peersim.cdsim.CDSimulator.nextExperiment(CDSimulator.java:213) ]
+WARN:CDSimulator: cycle 1 done
+2019-01-08 23:35:35 下午 [Thread: main][ Class:peersim.cdsim.CDSimulator >> Method: peersim.cdsim.CDSimulator.nextExperiment(CDSimulator.java:213) ]
+WARN:CDSimulator: cycle 2 done
+2019-01-08 23:35:35 下午 [Thread: main][ Class:peersim.cdsim.CDSimulator >> Method: peersim.cdsim.CDSimulator.nextExperiment(CDSimulator.java:213) ]
+WARN:CDSimulator: cycle 3 done
+2019-01-08 23:35:35 下午 [Thread: main][ Class:peersim.cdsim.CDSimulator >> Method: peersim.cdsim.CDSimulator.nextExperiment(CDSimulator.java:213) ]
+WARN:CDSimulator: cycle 4 done
+2019-01-08 23:35:35 下午 [Thread: main][ Class:peersim.cdsim.CDSimulator >> Method: peersim.cdsim.CDSimulator.nextExperiment(CDSimulator.java:213) ]
+WARN:CDSimulator: cycle 5 done
+2019-01-08 23:35:36 下午 [Thread: main][ Class:peersim.cdsim.CDSimulator >> Method: peersim.cdsim.CDSimulator.nextExperiment(CDSimulator.java:213) ]
+WARN:CDSimulator: cycle 6 done
+2019-01-08 23:35:36 下午 [Thread: main][ Class:peersim.cdsim.CDSimulator >> Method: peersim.cdsim.CDSimulator.nextExperiment(CDSimulator.java:213) ]
+WARN:CDSimulator: cycle 7 done
+2019-01-08 23:35:36 下午 [Thread: main][ Class:peersim.cdsim.CDSimulator >> Method: peersim.cdsim.CDSimulator.nextExperiment(CDSimulator.java:213) ]
+WARN:CDSimulator: cycle 8 done
+2019-01-08 23:35:36 下午 [Thread: main][ Class:peersim.cdsim.CDSimulator >> Method: peersim.cdsim.CDSimulator.nextExperiment(CDSimulator.java:213) ]
+WARN:CDSimulator: cycle 9 done
+2019-01-08 23:35:36 下午 [Thread: main][ Class:peersim.cdsim.CDSimulator >> Method: peersim.cdsim.CDSimulator.nextExperiment(CDSimulator.java:213) ]
+WARN:CDSimulator: cycle 10 done
+2019-01-08 23:35:36 下午 [Thread: main][ Class:peersim.cdsim.CDSimulator >> Method: peersim.cdsim.CDSimulator.nextExperiment(CDSimulator.java:213) ]
+WARN:CDSimulator: cycle 11 done
+2019-01-08 23:35:36 下午 [Thread: main][ Class:peersim.cdsim.CDSimulator >> Method: peersim.cdsim.CDSimulator.nextExperiment(CDSimulator.java:213) ]
+WARN:CDSimulator: cycle 12 done
+2019-01-08 23:35:36 下午 [Thread: main][ Class:peersim.cdsim.CDSimulator >> Method: peersim.cdsim.CDSimulator.nextExperiment(CDSimulator.java:213) ]
+WARN:CDSimulator: cycle 13 done
+2019-01-08 23:35:36 下午 [Thread: main][ Class:peersim.cdsim.CDSimulator >> Method: peersim.cdsim.CDSimulator.nextExperiment(CDSimulator.java:213) ]
+WARN:CDSimulator: cycle 14 done
+2019-01-08 23:35:36 下午 [Thread: main][ Class:peersim.cdsim.CDSimulator >> Method: peersim.cdsim.CDSimulator.nextExperiment(CDSimulator.java:213) ]
+WARN:CDSimulator: cycle 15 done
+2019-01-08 23:35:36 下午 [Thread: main][ Class:peersim.cdsim.CDSimulator >> Method: peersim.cdsim.CDSimulator.nextExperiment(CDSimulator.java:213) ]
+WARN:CDSimulator: cycle 16 done
+2019-01-08 23:35:36 下午 [Thread: main][ Class:peersim.cdsim.CDSimulator >> Method: peersim.cdsim.CDSimulator.nextExperiment(CDSimulator.java:213) ]
+WARN:CDSimulator: cycle 17 done
+2019-01-08 23:35:36 下午 [Thread: main][ Class:peersim.cdsim.CDSimulator >> Method: peersim.cdsim.CDSimulator.nextExperiment(CDSimulator.java:213) ]
+WARN:CDSimulator: cycle 18 done
+2019-01-08 23:35:36 下午 [Thread: main][ Class:peersim.cdsim.CDSimulator >> Method: peersim.cdsim.CDSimulator.nextExperiment(CDSimulator.java:213) ]
+WARN:CDSimulator: cycle 19 done
+2019-01-08 23:35:36 下午 [Thread: main][ Class:peersim.cdsim.CDSimulator >> Method: peersim.cdsim.CDSimulator.nextExperiment(CDSimulator.java:213) ]
+WARN:CDSimulator: cycle 20 done
+2019-01-08 23:35:36 下午 [Thread: main][ Class:peersim.cdsim.CDSimulator >> Method: peersim.cdsim.CDSimulator.nextExperiment(CDSimulator.java:213) ]
+WARN:CDSimulator: cycle 21 done
+2019-01-08 23:35:36 下午 [Thread: main][ Class:peersim.cdsim.CDSimulator >> Method: peersim.cdsim.CDSimulator.nextExperiment(CDSimulator.java:213) ]
+WARN:CDSimulator: cycle 22 done
+2019-01-08 23:35:36 下午 [Thread: main][ Class:peersim.cdsim.CDSimulator >> Method: peersim.cdsim.CDSimulator.nextExperiment(CDSimulator.java:213) ]
+WARN:CDSimulator: cycle 23 done
+2019-01-08 23:35:36 下午 [Thread: main][ Class:peersim.cdsim.CDSimulator >> Method: peersim.cdsim.CDSimulator.nextExperiment(CDSimulator.java:213) ]
+WARN:CDSimulator: cycle 24 done
+2019-01-08 23:35:36 下午 [Thread: main][ Class:peersim.cdsim.CDSimulator >> Method: peersim.cdsim.CDSimulator.nextExperiment(CDSimulator.java:213) ]
+WARN:CDSimulator: cycle 25 done
+2019-01-08 23:35:36 下午 [Thread: main][ Class:peersim.cdsim.CDSimulator >> Method: peersim.cdsim.CDSimulator.nextExperiment(CDSimulator.java:213) ]
+WARN:CDSimulator: cycle 26 done
+2019-01-08 23:35:36 下午 [Thread: main][ Class:peersim.cdsim.CDSimulator >> Method: peersim.cdsim.CDSimulator.nextExperiment(CDSimulator.java:213) ]
+WARN:CDSimulator: cycle 27 done
+2019-01-08 23:35:36 下午 [Thread: main][ Class:peersim.cdsim.CDSimulator >> Method: peersim.cdsim.CDSimulator.nextExperiment(CDSimulator.java:213) ]
+WARN:CDSimulator: cycle 28 done
+2019-01-08 23:35:36 下午 [Thread: main][ Class:peersim.cdsim.CDSimulator >> Method: peersim.cdsim.CDSimulator.nextExperiment(CDSimulator.java:213) ]
+WARN:CDSimulator: cycle 29 done

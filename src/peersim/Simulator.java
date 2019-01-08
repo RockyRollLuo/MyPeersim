@@ -186,7 +186,7 @@ public static void main(String[] args)
 			LOGGER.warn("Simulator: starting experiment "+k);
 			LOGGER.warn(" invoking "+simName[SIMID]);
 			LOGGER.warn("Random seed: "+ CommonState.r.getLastSeed());
-			System.out.println("\n\n");
+			System.out.println("\n");
 			
 			// XXX could be done through reflection, but
 			// this is easier to read.

@@ -18,6 +18,7 @@
 
 package peersim.cdsim;
 
+import org.apache.log4j.Logger;
 import peersim.config.Configuration;
 import peersim.core.*;
 
@@ -54,8 +55,8 @@ import java.util.Arrays;
  * experiment was interrupted.
  * @see Configuration
  */
-public class CDSimulator
-{
+public class CDSimulator{
+	private static Logger LOGGER = Logger.getLogger(CDSimulator.class);
 
 // ============== fields ===============================================
 // =====================================================================
@@ -126,7 +127,7 @@ private static void runInitializers()
 	String names[] = Configuration.getNames(PAR_INIT);
 
 	for (int i = 0; i < inits.length; ++i) {
-		System.err.println("- Running initializer " + names[i] + ": "
+		LOGGER.warn("- Running initializer " + names[i] + ": "
 				+ inits[i].getClass());
 		((Control) inits[i]).execute();
 	}
@@ -154,7 +155,7 @@ private static String[] loadControls()
 		controls[i] = (Control) Configuration.getInstance(names[i]);
 		ctrlSchedules[i] = new Scheduler(names[i]);
 	}
-	System.err.println("CDSimulator: loaded controls " + Arrays.asList(names));
+	LOGGER.warn("CDSimulator: loaded controls " + Arrays.asList(names));
 	return names;
 }
 
@@ -186,17 +187,19 @@ public static final void nextExperiment()
 	// initialization
 	CDState.setCycle(0);
 	CDState.setPhase(CDState.PHASE_UNKNOWN);
-	System.err.println("CDSimulator: resetting");
+	LOGGER.warn("CDSimulator: resetting");
 	controls = null;
 	ctrlSchedules = null;
 	Network.reset();
-	System.err.println("CDSimulator: running initializers");
+	LOGGER.warn("CDSimulator: running initializers");
 	runInitializers();
 
 	// main cycle
 	loadControls();
 
-	System.err.println("CDSimulator: starting simulation");
+	LOGGER.warn("CDSimulator: starting simulation");
+	System.out.println("\n");
+
 	for (int i = 0; i < cycles; ++i) {
 		CDState.setCycle(i);
 
@@ -207,7 +210,9 @@ public static final void nextExperiment()
 		}
 		if (stop)
 			break;
-		System.err.println("CDSimulator: cycle " + i + " done");
+		LOGGER.warn("CDSimulator: cycle " + i + " done");
+		System.out.println("\n");
+
 	}
 
 	CDState.setPhase(CDState.POST_SIMULATION);

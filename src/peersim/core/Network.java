@@ -18,6 +18,7 @@
 		
 package peersim.core;
 
+import org.apache.log4j.Logger;
 import peersim.config.Configuration;
 
 import java.util.Arrays;
@@ -43,7 +44,7 @@ import java.util.Comparator;
 * using {@link OverlayGraph}.
 */
 public class Network {
-
+	private static Logger LOGGER = Logger.getLogger(Network.class);
 
 // ========================= fields =================================
 // ==================================================================
@@ -129,7 +130,7 @@ public static void reset() {
 	Node tmp = null;
 	if (!Configuration.contains(PAR_NODE))
 	{
-		System.err.println(
+		LOGGER.warn(
 		"Network: no node defined, using GeneralNode");
 		tmp = new GeneralNode("");
 	}
