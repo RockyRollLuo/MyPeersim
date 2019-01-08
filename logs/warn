@@ -1,0 +1,10 @@
+2019-01-08 22:16:37 下午 [Thread: main][ Class:peersim.Simulator >> Method: peersim.Simulator.main(Simulator.java:160) ]
+WARN:Simulator: loading configuration
+2019-01-08 22:16:37 下午 [Thread: main][ Class:peersim.config.ConfigProperties >> Method: peersim.config.ConfigProperties.<init>(ConfigProperties.java:94) ]
+WARN:ConfigProperties: File example/config-edexample.txt loaded.
+2019-01-08 22:16:37 下午 [Thread: main][ Class:peersim.Simulator >> Method: peersim.Simulator.main(Simulator.java:186) ]
+WARN:Simulator: starting experiment 0
+2019-01-08 22:16:37 下午 [Thread: main][ Class:peersim.Simulator >> Method: peersim.Simulator.main(Simulator.java:187) ]
+WARN: invoking peersim.edsim.EDSimulator
+2019-01-08 22:16:37 下午 [Thread: main][ Class:peersim.Simulator >> Method: peersim.Simulator.main(Simulator.java:188) ]
+WARN:Random seed: 1234567890
