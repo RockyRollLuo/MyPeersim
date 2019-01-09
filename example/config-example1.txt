@@ -1,4 +1,4 @@
-# PEERSIM EXAMPLE 1
+# PEERSIM EXAMPLE 1 cycles based
 
 random.seed 1234567890
 simulation.cycles 30

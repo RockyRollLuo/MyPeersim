@@ -280,16 +280,6 @@ public static void initializeRandom(long seed)
 	r.setSeed(seed);
 }
 
-//-----------------------------------------------------------------
-
-/*
-public static void main(String pars[]) {
-	
-	setEndTime(Long.parseLong(pars[0]));
-	setTime(Long.parseLong(pars[1]));
-	System.err.println(getTime()+" "+getIntTime());
-}
-*/
 }
 
 
